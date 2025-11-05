@@ -11,9 +11,6 @@ let client: LanguageClient;
 
 export function activate(context: ExtensionContext) {
   // The server is implemented in node
-  // const serverModule = context.asAbsolutePath(
-  //   path.join('..', 'sugarcss-lsp-server', 'out', 'server.js'),
-  // );
   const serverModule = require.resolve(
     '@blackbyte/sugarcss-lsp-server/out/server.js',
   );
