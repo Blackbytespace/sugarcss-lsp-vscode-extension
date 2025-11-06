@@ -1,5 +1,5 @@
 {
-  "name": "@blackbyte/lsp-vscode-client",
+  "name": "@blackbyte/sugarcss-lsp-vscode-client",
   "description": "VS Code extension for SugarCSS LSP Server",
   "version": "0.0.1",
   "publisher": "blackbyte",
